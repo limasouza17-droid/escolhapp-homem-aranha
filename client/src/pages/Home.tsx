@@ -35,7 +35,7 @@ type RoomState = {
   winner: { id: string; count: number } | null;
 };
 
-const sceneOrder = ["scene-05", "scene-11", "scene-04", "scene-07", "scene-12", "scene-13"];
+const sceneOrder = ["scene-05", "scene-11", "scene-04", "scene-07", "scene-12", "scene-13", "scene-13b"];
 
 function getDeviceToken() {
   const key = "escolhapp-device-token";
